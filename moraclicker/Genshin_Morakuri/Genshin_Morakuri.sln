@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genshin_Morakuri", "Genshin_Morakuri.csproj", "{2BE08EC8-BCB4-ECF4-97C7-C5DAF65F55BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BE08EC8-BCB4-ECF4-97C7-C5DAF65F55BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE08EC8-BCB4-ECF4-97C7-C5DAF65F55BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE08EC8-BCB4-ECF4-97C7-C5DAF65F55BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE08EC8-BCB4-ECF4-97C7-C5DAF65F55BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
