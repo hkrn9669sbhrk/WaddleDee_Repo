@@ -1,4 +1,4 @@
-# Security Policy
+# とりあえずこれ作ったけど、まだ全然変えれてないから気にしないで
 
 ## Supported Versions
 
