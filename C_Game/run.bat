@@ -1,0 +1,3 @@
+@ECHO OFF
+C_Game.exe
+PAUSE
