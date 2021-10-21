@@ -72,5 +72,7 @@ int main(void)
 	printf("\n");
 	getchar();
 	
+	
+	//ここから育成になる。ループさせまくる。
 	return 0;
 }
