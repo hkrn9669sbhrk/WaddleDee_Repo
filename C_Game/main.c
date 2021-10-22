@@ -9,9 +9,11 @@ int main(void)
 	int power=10;
 	int speed=10;
 	int defence=10;
+	int smart=10;
 	int luk;
 	int damage;
 	int loop=0;
+	int cho;
 	float time;
 	
 	int love1=0;
@@ -72,11 +74,30 @@ int main(void)
 		printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 		printf("%d日目\n\n",loop +1);
 		
-		printf("ステ-タス\n体力%d\n力　%d\n守　%d\n速　%d",hp,power,defence,speed);
-		printf("\n\n");
-		printf("はっくん\n今日は何をしようかな？▽");
-		getchar();
+		srand((unsigned int) time(NULL));
+		luk = rand() %100 + 1;1
 		
+		printf("ステ-タス\n体力%d\n力　%d\n守　%d\n速　%d\n賢　%d\n",hp,power,defence,speed,smart);
+		
+		if(luk>80){
+			printf("運　大吉")
+		}
+		else if(luk>50){
+			printf("運　中吉")
+		}
+		else if(luk>30){
+			printf("運　小吉")
+		}
+		else if (luk>10){
+			printf("運　凶")
+		}
+		else{
+			printf("運　大凶");
+		}
+		
+		printf("\n\n");
+		printf("はっくん\n今日は何をしようかな？▽\n\n1.筋トレ\n2.ランニング\n3.勉強\n4.休憩\n\n->");
+		scanf("%d",&cho);
 		
 	}
 	
